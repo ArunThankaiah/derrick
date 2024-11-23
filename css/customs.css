@@ -1,0 +1,73 @@
+:root {
+    --primary: #6244C5;
+    --secondary: #FFC448;
+    --light: #FAFAFB;
+    --dark: #12141D;
+}
+
+.text-primary{
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+}
+.display-3{
+    font-size: 1rem;
+}
+.date-time{
+    display: flex;
+    align-items: center;
+    gap: 0 2rem;
+    margin-top: 2rem;
+    
+}
+.date-time div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-radius: 10px;
+}
+.date-time div p{
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 25px;
+    color: #101010;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 0.5rem;
+}
+/* ------------------- */
+/* count down */
+/* ------------------- */
+.count-down-box{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    margin-top: 50px;
+    gap: 0 20px;
+    
+
+}
+.count-down-box div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: transparent;
+    border-radius: 10px;
+    
+
+}
+.count-down-box div h3{
+    font-size: 2.9rem;
+    color: var(--primary);
+    padding: 10px 0 0 0;
+    
+}
+.count-down-box div p{
+    font-size: 12px;
+}
