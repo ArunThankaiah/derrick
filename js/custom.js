@@ -37,3 +37,8 @@ const countDownInterval = setInterval(countDown, 1000);
 // Initial call to display the countdown immediately
 countDown();
 
+// copy right 
+
+const allYear = new Date().getFullYear();
+document.getElementById('year').innerText = allYear;
+

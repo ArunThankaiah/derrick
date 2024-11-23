@@ -14,28 +14,26 @@
 }
 .date-time{
     display: flex;
-    align-items: center;
     gap: 0 2rem;
-    margin-top: 2rem;
-    
+    align-items: center;
+    margin-top: 20px;
+
 }
 .date-time div{
+    border-radius: 10px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .date-time div p{
-    font-size: 14px;
-    text-align: center;
-    padding: 15px 25px;
-    color: #101010;
+    font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 0.5rem;
+    color: #12141D;
 }
+
 /* ------------------- */
 /* count down */
 /* ------------------- */
@@ -70,4 +68,222 @@
 }
 .count-down-box div p{
     font-size: 12px;
+}
+/* ------------------- */
+/* End count down */
+/* ------------------- */
+/* ------------------- */
+/* Happy Client Counter */
+/* ------------------- */
+.text-primary.fw-bold::after{
+    content: '+';
+    padding-left: 5px;
+}
+/* ------------------------- */
+/* End Happy Client counter*/
+/* ------------------------- */
+/* ------------------------- */
+/* Webinar Heighlight*/
+/* ------------------------- */
+
+.webinar-highlights{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 0 2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px ;
+    border-radius: 10px;
+}
+.webinar-highlights img.online{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.webinar-content h3{
+    margin-top: 2rem;
+}
+.webinar-content div{
+    margin-top: 2rem;
+}
+.webinar-content div p{
+    font-size: 16px;
+    color: #12141D;
+    font-weight: 500;
+    position: relative;
+}
+.webinar-content div p span{
+    position: absolute;
+    transform: translateX(2px);
+}
+.webinar-content div img{
+   padding-right: 10px;
+}
+.webinar-content div p.last-p{
+    margin-top: 2.9rem;
+}
+@media (max-width:1250px){
+    .webinar-highlights{
+        width: 70%;
+    }
+}
+@media (max-width:1200px){
+    .webinar-highlights{
+        width: 80%;
+    }
+}
+@media (max-width:1050px){
+    .webinar-highlights{
+        width: 90%;
+    }
+}
+@media (max-width:991px){
+    .webinar-highlights{
+        width: 100%;
+    }
+}
+@media (max-width:991px){
+    .webinar-highlights{
+        flex-direction: column;
+    }
+}
+/* ------------------------- */
+/* End Webinar Heighlight*/
+/* ------------------------- */
+/* ------------------------- */
+/* webinar expert*/
+/* ------------------------- */
+.expert{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+.webinar-experts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 2rem;
+}
+.webinar-experts .director{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    
+}
+
+.webinar-experts .director .mathew{
+   width: 450px;
+   height: auto;
+   
+}
+.webinar-experts .director .mathew img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.education h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.education h5{
+    font-size: 16px;
+    font-size: 400;
+}
+.education ul li{
+    font-size: 13px;
+    margin: 1rem;
+}
+.expert-box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.8rem 0;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.expert-box h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.expert-box h6{
+    font-weight: 700;
+}
+
+@media (max-width: 1400px){
+    .webinar-experts .director{
+        width: 60%;
+        
+    }
+}
+@media (max-width: 1400px){
+    .webinar-experts .director{
+        width: 70%;
+    }
+}
+@media (max-width: 991px){
+    .expert{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .webinar-experts{
+        display: block;
+    }
+    .webinar-experts .director{
+        width: 100%;
+    }
+}
+@media (max-width: 776px){
+    .expert{
+        font-size: 2rem;
+        padding: 20px 0;
+    }
+    .webinar-experts .director{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .webinar-experts .director .mathew{
+       width: 350px;
+       
+    }
+    .education h4{
+       margin-top: 1rem;
+       padding: 15px;
+     }
+     .expert-box{
+        text-align: center;
+     }
+
+}
+/* ------------------------- */
+/* End Webinar expertt*/
+/* ------------------------- */
+.footer-address a{
+    font-size: 1rem;
+    color: #12141D;
+    text-decoration: none;
+}
+.copy-right .container p a{
+    text-decoration: none;
+    color: #fff;
+}
+.whats-app{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 20%;
+    z-index: 999;
+}
+.whats-app img{
+    display: block;
+    width: 100%;
 }
