@@ -254,6 +254,9 @@
        width: 350px;
        
     }
+    .education{
+        text-align: center;
+    }
     .education h4{
        margin-top: 1rem;
        padding: 15px;
