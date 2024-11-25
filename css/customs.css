@@ -156,8 +156,7 @@
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    padding: 25px 0;
+    padding: 0.8rem 0;
     border-radius: 10px;
 }
 .webinar-experts{
@@ -196,7 +195,7 @@
     font-size: 400;
 }
 .education ul li{
-    font-size: 13px;
+    font-size: 15px;
     margin: 1rem;
 }
 .expert-box{
@@ -290,3 +289,114 @@
     display: block;
     width: 100%;
 }
+/* ------------------------- */
+/* counter-box */
+/* ------------------------- */
+.counter-box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4.5rem;
+}
+.counter-box .counter-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.counter-box .text-primary{
+    font-size: 1.5rem !important;
+}
+.counter-box strong{
+    font-size: 14px !important;
+}
+@media (max-width: 1390px){
+    .counter-box {
+        gap: 2rem !important;
+    }
+    .counter-box .text-primary{
+        font-size: 1rem !important;
+    }
+    .counter-box strong{
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 1190px){
+    .counter-box {
+        gap: 1rem !important;
+    }
+       
+}
+@media (max-width: 991px){
+    .counter-box {
+        gap: 3rem !important;
+    }
+    .counter-box .text-primary{
+        font-size: 1.5rem !important;
+    }
+    .counter-box strong{
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 776px){
+    .counter-box{
+        flex-direction: column;
+    }
+}
+/* ------------------------- */
+/* End counter-box */
+/* ------------------------- */
+
+/* ------------------------- */
+/* What You’ll Gain Start */
+/* ------------------------- */
+
+ .gain-box{
+    width: 300px;
+    height: 170px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+ .arrow-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    margin-bottom: 10px;
+}
+ .arrow-icon:hover{
+    background: #6e52c8;
+}
+ .arrow-icon i{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.gain-box p{
+    font-size: 14px;
+    color: #101010;
+    font-weight: 500;
+}
+@media (max-width: 776px){
+    .gain-box{
+        width: 100%;
+    }
+}
+/* ------------------------- */
+/* What You’ll Gain End */
+/* ------------------------- */

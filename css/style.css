@@ -405,8 +405,8 @@
     position: relative;
     display: inline-block;
     margin: 0 5px;
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     background: #FFFFFF;
     border: 2px solid var(--secondary);
     border-radius: 30px;
@@ -416,10 +416,11 @@
 .testimonial-carousel .owl-dot::after {
     position: absolute;
     content: "";
-    width: 16px;
-    height: 16px;
-    top: 5px;
-    left: 5px;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 16px;
     background: var(--secondary);
     transition: .5s;
