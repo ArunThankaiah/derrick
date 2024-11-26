@@ -244,6 +244,10 @@
         font-size: 2rem;
         padding: 20px 0;
     }
+    .education h4{
+        font-size: 2rem;
+        font-weight: 700;
+    }
     .webinar-experts .director{
         flex-direction: column;
         align-items: center;
